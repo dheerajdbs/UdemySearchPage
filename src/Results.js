@@ -1,5 +1,4 @@
 import React from "react";
-// import images from './images/React.webp';
 import "./Results.css";
 
 const results = (props) => {
@@ -10,7 +9,7 @@ const results = (props) => {
         <div className="Results">
           <h2>{card.name}</h2>
           <img src={require(`./images/${card.img}`)} alt={card.name} />
-          <p className="price">{card.price}</p>
+          <p className="price">Rs. {card.price}</p>
           <p>{card.desc}</p>
         </div>
       );

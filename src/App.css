@@ -2,7 +2,6 @@
   text-align: center;
 }
 
-
 .sidenav {
   height: 100%;
   width: 160px;
@@ -27,9 +26,9 @@
 .footer {
   position: fixed;
   left: 0;
+  color: black;
   bottom: 0;
   width: 100%;
-  background-color: red;
-  color: white;
+  background-color: cyan;
   text-align: center;
 }
