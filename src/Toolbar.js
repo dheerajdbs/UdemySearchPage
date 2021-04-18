@@ -13,7 +13,7 @@ const toolbar = (props) => (
       <img src={Logo} alt="Temp" />
     </a>
     <a><button className = "btn btn-danger">Sasta Udemy</button></a>
-    <input type="text" placeholder="Search.." />
+    <input type="text" placeholder="Search.." onChange={props.changed} />
   </div>
 );
 

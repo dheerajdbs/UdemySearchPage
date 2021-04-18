@@ -67,26 +67,3 @@ const newCourse = (props) => {
 }
 
 export default newCourse;
-
-//style={{height: '40px', padding: '1px !important'}}
-
-{/* <div>
-            <div className="form-group inputField">
-            <label for="name">Name:</label>
-            <input type="text" className="form-control" placeholder="Enter Name"/>
-            </div>
-            <div className="form-group inputField">
-                <label for="pwd">Description:</label>
-                <input type="text" className="form-control"  placeholder="Enter Description" />
-            </div>
-            <div className="form-group inputField">
-                <label for="pwd">Image:</label>
-                <input type="text" className="form-control"  placeholder="Enter Image Path" />
-            </div>
-            <div className="form-group inputField">
-                <label for="pwd">Price:</label>
-                <input type="text" className="form-control"  placeholder="Enter Price" />
-            </div>
-
-             <button onClick={props.add} className='btn btn-primary' >Add New Course</button>
-    </div> */}
