@@ -12,7 +12,8 @@ class App extends Component {
       {name: "Vue", desc : "Vue Course", img: 'Vue.png', price: 500},
       {name: "Angular", desc : "Angular Course", img: 'Angular.svg', price: 1200}
     ],
-    currentText: ""
+    currentText: "",
+    id: "exampleModal"
   }
   
 
@@ -32,8 +33,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Toolbar changed={this.getTextFromInput}/>   
-        <NewCourse add={this.addCourseHandler} cards = { this.state.cards }/>
+        <Toolbar changed={this.getTextFromInput} id = { this.state.id }/>   
+        <NewCourse add={this.addCourseHandler} cards = { this.state.cards } id = {this.state.id}/>
        <Results data={this.state.cards} text={this.state.currentText}/>
        {/* <footer className="footer">This is a copyright of Sasta Udemy</footer> */}
       </div>
