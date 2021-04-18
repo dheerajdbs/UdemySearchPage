@@ -1,0 +1,15 @@
+.back {
+    background-color: lightblue;
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 16px auto;
+    align-items: center;
+    border: 1px groove black;
+}
+
+.inputField {
+    width: 50%;
+    margin: 10px auto;
+
+}
